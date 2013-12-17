@@ -1,0 +1,69 @@
+# encoding: utf-8
+
+"pt-BR":
+
+  payload:
+
+    address: endereco
+    credit_card: cartao_de_credito
+    item: produto
+    payer: pagador
+    phone: telefone
+    receiver: recebedor
+    split_fee: comissionamento
+    transaction: carrinho
+
+    attributes:
+
+      address:
+        additional_details: complemento
+        city: cidade
+        country: pais
+        neighborhood: bairro
+        number: numero
+        postal_code: cep
+        reference: referencia
+        state: estado
+        street: logradouro
+        type: tipo
+
+      credit_card:
+        brand: meio_de_pagamento
+        expiration: expiracao
+        installments: parcelas
+        number: numero
+        security_code: codigo_de_seguranca
+
+      electronic_funds_transfer:
+        brand: meio_de_pagamento
+
+      item:
+        description: descricao
+        discount: desconto
+        price: preco
+        quantity: quantidade
+        reference: codigo
+        shipping_cost: frete
+        split_fee: comissionamento
+        weight: peso
+
+      payer:
+        name: nome
+        email: email
+
+      phone:
+        type: tipo
+        number: numero
+
+      receiver:
+        api_key: api_key
+        email: email
+
+      split_fee:
+        amount: valor
+        receiver: recebedor
+        type: tipo
+
+      transaction:
+        payer: pagador
+        receiver: recebedor

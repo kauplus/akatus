@@ -1,0 +1,2 @@
+# Check "rspec --help" for more info on the options.
+--color --format d --require spec_helper
